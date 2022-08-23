@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
-import { JwtStrategy } from "./jwt.strategy";
+import { JwtStrategy } from './jwt.strategy';
 
 export const jwtConstants = {
   secret: 'myTestkey',
